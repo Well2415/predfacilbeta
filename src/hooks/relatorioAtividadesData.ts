@@ -7,7 +7,7 @@ export interface Atividade {
     descricao: string;
     periodicidade: number;
     valor: number;
-    status: 'Conforme' | 'Não Conforme';
+    status: string;
     data: string;
 }
 
