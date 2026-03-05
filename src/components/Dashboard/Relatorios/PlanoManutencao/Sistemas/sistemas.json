@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "nome": "Acabamentos em Pedras Naturais",
+        "descricao": "As pedras naturais, como o mármore, granito, pedra portuguesa e pedra Pirenópolis, são revestimentos capazes de unir praticidade, resistência e durabilidade a uma estética ímpar.",
+        "cuidadosUso": "Evitar uso de produtos ácidos ou abrasivos. Limpeza deve ser feita com detergente neutro diluído em água.",
+        "normasTecnicas": "ABNT NBR 15844 - Rochas para revestimento - Requisitos para granitos.",
+        "glossario": "Abrasivo: material que desgasta a superfície por fricção."
+    },
+    {
+        "id": 2,
+        "nome": "Alvenarias de Vedação",
+        "descricao": "As alvenarias de vedação das áreas comuns são compostas por blocos cerâmicos ou de concreto.",
+        "cuidadosUso": "Não realizar furos ou cortes sem consulta prévia aos projetos estruturais e de instalações.",
+        "normasTecnicas": "ABNT NBR 15270 - Componentes cerâmicos para alvenaria.",
+        "glossario": "Vedação: fechamentos de vãos entre elementos estruturais."
+    }
+]

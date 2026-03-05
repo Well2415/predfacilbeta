@@ -1,0 +1,157 @@
+{
+    "_instrucoes": {
+        "descricao": "Dados de Inspeções cadastradas. Programador: substitua por GET /api/cadastro/inspecoes?page=N&search=X&de=YYYY-MM-DD&ate=YYYY-MM-DD",
+        "versao": "1.0.0"
+    },
+    "inspecoes": [
+        {
+            "id": 1,
+            "name": "36520 – AR-CONDICIONADO/MENSAL",
+            "updated": "30/09/2025",
+            "next": "02/09/2025",
+            "warn": "01/09/2025",
+            "periodicity": "A cada 28 dias"
+        },
+        {
+            "id": 2,
+            "name": "36541 – CERCA ELÉTRICA/SEMESTRAL",
+            "updated": "05/08/2025",
+            "next": "26/01/2026",
+            "warn": "25/01/2026",
+            "periodicity": "A cada 174 dias"
+        },
+        {
+            "id": 3,
+            "name": "36658 – GERADOR/SEMANAL",
+            "updated": "08/09/2025",
+            "next": "15/09/2025",
+            "warn": "01/09/2025",
+            "periodicity": "A cada 7 dias"
+        },
+        {
+            "id": 4,
+            "name": "36659 – JARDIM/SEMANAL",
+            "updated": "08/09/2025",
+            "next": "15/09/2025",
+            "warn": "01/09/2025",
+            "periodicity": "A cada 7 dias"
+        },
+        {
+            "id": 5,
+            "name": "36520 – AR-CONDICIONADO/MENSAL",
+            "updated": "08/09/2025",
+            "next": "15/09/2025",
+            "warn": "01/09/2025",
+            "periodicity": "A cada 28 dias"
+        },
+        {
+            "id": 6,
+            "name": "36660 – PLAYGROUND/SEMANAL",
+            "updated": "30/09/2025",
+            "next": "02/09/2025",
+            "warn": "01/09/2025",
+            "periodicity": "A cada 7 dias"
+        },
+        {
+            "id": 7,
+            "name": "36517 – PORTÃO/SEMANAL",
+            "updated": "30/09/2025",
+            "next": "02/09/2025",
+            "warn": "01/09/2025",
+            "periodicity": "A cada 7 dias"
+        },
+        {
+            "id": 8,
+            "name": "36661 – RESERVATÓRIOS/SEMANAL",
+            "updated": "30/09/2025",
+            "next": "02/09/2025",
+            "warn": "01/09/2025",
+            "periodicity": "A cada 7 dias"
+        },
+        {
+            "id": 9,
+            "name": "36662 – SAUNA/SEMANAL",
+            "updated": "30/09/2025",
+            "next": "02/09/2025",
+            "warn": "01/09/2025",
+            "periodicity": "A cada 7 dias"
+        },
+        {
+            "id": 10,
+            "name": "36520 – AR-CONDICIONADO/MENSAL",
+            "updated": "30/09/2025",
+            "next": "02/09/2025",
+            "warn": "01/09/2025",
+            "periodicity": "A cada 28 dias"
+        },
+        {
+            "id": 11,
+            "name": "36670 – BOMBAS RECALQUE/MENSAL",
+            "updated": "15/09/2025",
+            "next": "15/10/2025",
+            "warn": "14/10/2025",
+            "periodicity": "A cada 28 dias"
+        },
+        {
+            "id": 12,
+            "name": "36671 – ELEVADORES/MENSAL",
+            "updated": "20/09/2025",
+            "next": "20/10/2025",
+            "warn": "19/10/2025",
+            "periodicity": "A cada 28 dias"
+        }
+    ],
+    "procedimentos": {
+        "1": [
+            {
+                "id": 1,
+                "name": "Limpeza de filtros",
+                "updated": "12/10/2025"
+            },
+            {
+                "id": 2,
+                "name": "Troca de gás",
+                "updated": "05/08/2025"
+            },
+            {
+                "id": 3,
+                "name": "Verificação de ruídos",
+                "updated": "08/09/2025"
+            },
+            {
+                "id": 4,
+                "name": "Limpeza da unidade externa",
+                "updated": "30/09/2025"
+            }
+        ],
+        "2": [
+            {
+                "id": 1,
+                "name": "Inspeção visual da cerca",
+                "updated": "05/08/2025"
+            },
+            {
+                "id": 2,
+                "name": "Teste de tensão elétrica",
+                "updated": "05/08/2025"
+            }
+        ],
+        "3": [
+            {
+                "id": 1,
+                "name": "Verificação do nível de óleo",
+                "updated": "08/09/2025"
+            },
+            {
+                "id": 2,
+                "name": "Teste de partida",
+                "updated": "08/09/2025"
+            },
+            {
+                "id": 3,
+                "name": "Verificação da bateria",
+                "updated": "08/09/2025"
+            }
+        ]
+    }
+}

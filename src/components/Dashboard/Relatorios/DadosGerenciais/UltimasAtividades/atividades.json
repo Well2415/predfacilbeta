@@ -1,0 +1,81 @@
+{
+    "atividades": [
+        {
+            "id": 1,
+            "ficha": "GERADOR/SEMANAL",
+            "descricao": "Efetuar limpeza do equipamento. Verificar estado de água e de óleo, seus níveis e existência de vazamentos. Verificar condição de ventilação e de limpeza do ambiente. Realizar teste de funcionamento dos sistemas durante 15 min (ou conforme manual de instrução).",
+            "periodicidade": 7,
+            "valor": 3412.00,
+            "status": "Conforme",
+            "data": "2025-06-02"
+        },
+        {
+            "id": 2,
+            "ficha": "PLAYGROUND/SEMANAL",
+            "descricao": "Verificar brinquedos quanto a farpas, pontas de parafusos, cantos vivos, oxidação e fixação de peças metálicas, pisos soltos e quebrados, fiação exposta e itens que possam causar ferimentos.",
+            "periodicidade": 7,
+            "valor": 0,
+            "status": "Não Conforme",
+            "data": "2025-06-01"
+        },
+        {
+            "id": 3,
+            "ficha": "Teste",
+            "descricao": "Descrição de teste para validar o componente.",
+            "periodicidade": 0,
+            "valor": 0,
+            "status": "Não Conforme",
+            "data": "2025-05-30"
+        },
+        {
+            "id": 4,
+            "ficha": "GERADOR/SEMANAL",
+            "descricao": "Efetuar limpeza do equipamento. Verificar estado de água e de óleo, seus níveis e existência de vazamentos.",
+            "periodicidade": 7,
+            "valor": 3412.00,
+            "status": "Conforme",
+            "data": "2025-05-28"
+        },
+        {
+            "id": 5,
+            "ficha": "ELEVADOR/MENSAL",
+            "descricao": "Verificação rotineira dos cabos de aço e lubrificação das guias.",
+            "periodicidade": 30,
+            "valor": 1200.00,
+            "status": "Conforme",
+            "data": "2025-05-25"
+        }
+    ],
+    "planosResolvidos": [
+        {
+            "id": 1,
+            "realizadoPor": "SUPORTE.TACIANA",
+            "dataAbertura": "2025-05-19 15:51",
+            "fechadoPor": "SUPORTE.LORRAYNNE",
+            "dataFechamento": "2025-06-02 09:59",
+            "tempoFechamento": "13 Dias e 18 Horas",
+            "descricao": "Verificar brinquedos quanto à farpas, pontas de parafusos, cantos vivos, oxidação e fixação de peças metálicas, pisos soltos e quebrados, fiação exposta e itens que possam causar ferimentos.",
+            "valor": 3412.00
+        },
+        {
+            "id": 2,
+            "realizadoPor": "SUPORTE.LORRAYNNE",
+            "dataAbertura": "2025-06-02 09:50",
+            "fechadoPor": "SUPORTE.LORRAYNNE",
+            "dataFechamento": "2025-06-02 10:00",
+            "tempoFechamento": "0 Dias e 0 Horas",
+            "descricao": "Teste de resolução rápida.",
+            "valor": 3412.00
+        },
+        {
+            "id": 3,
+            "realizadoPor": "SUPORTE.LORRAYNNE",
+            "dataAbertura": "2025-06-02 09:52",
+            "fechadoPor": "SUPORTE.LORRAYNNE",
+            "dataFechamento": "2025-06-02 10:01",
+            "tempoFechamento": "0 Dias e 0 Horas",
+            "descricao": "Verificar funcionamento dos dispositivos de irrigação automática, iluminação, fiação exposta, pisos quebrados e caixas de passagem danificadas/abertas.",
+            "valor": 3412.00
+        }
+    ]
+}

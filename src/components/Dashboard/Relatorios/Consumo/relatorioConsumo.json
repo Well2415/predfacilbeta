@@ -1,0 +1,254 @@
+[
+    {
+        "id": 1,
+        "tipo": "Energia",
+        "consumo": "1128 kWh",
+        "valor": "482.90",
+        "mes": "01/2025"
+    },
+    {
+        "id": 2,
+        "tipo": "Agua",
+        "consumo": "812 m³",
+        "valor": "138.72",
+        "mes": "01/2025"
+    },
+    {
+        "id": 3,
+        "tipo": "Gas",
+        "consumo": "376 kg",
+        "valor": "754.00",
+        "mes": "01/2025"
+    },
+    {
+        "id": 4,
+        "tipo": "Energia",
+        "consumo": "1204 kWh",
+        "valor": "501.33",
+        "mes": "02/2025"
+    },
+    {
+        "id": 5,
+        "tipo": "Agua",
+        "consumo": "790 m³",
+        "valor": "142.19",
+        "mes": "02/2025"
+    },
+    {
+        "id": 6,
+        "tipo": "Gas",
+        "consumo": "402 kg",
+        "valor": "812.50",
+        "mes": "02/2025"
+    },
+    {
+        "id": 7,
+        "tipo": "Energia",
+        "consumo": "1087 kWh",
+        "valor": "478.44",
+        "mes": "03/2025"
+    },
+    {
+        "id": 8,
+        "tipo": "Agua",
+        "consumo": "765 m³",
+        "valor": "133.10",
+        "mes": "03/2025"
+    },
+    {
+        "id": 9,
+        "tipo": "Gas",
+        "consumo": "389 kg",
+        "valor": "780.90",
+        "mes": "03/2025"
+    },
+    {
+        "id": 10,
+        "tipo": "Energia",
+        "consumo": "1245 kWh",
+        "valor": "510.22",
+        "mes": "04/2025"
+    },
+    {
+        "id": 11,
+        "tipo": "Agua",
+        "consumo": "830 m³",
+        "valor": "149.40",
+        "mes": "04/2025"
+    },
+    {
+        "id": 12,
+        "tipo": "Gas",
+        "consumo": "415 kg",
+        "valor": "830.00",
+        "mes": "04/2025"
+    },
+    {
+        "id": 13,
+        "tipo": "Energia",
+        "consumo": "1190 kWh",
+        "valor": "493.75",
+        "mes": "05/2025"
+    },
+    {
+        "id": 14,
+        "tipo": "Agua",
+        "consumo": "805 m³",
+        "valor": "144.90",
+        "mes": "05/2025"
+    },
+    {
+        "id": 15,
+        "tipo": "Gas",
+        "consumo": "398 kg",
+        "valor": "797.00",
+        "mes": "05/2025"
+    },
+    {
+        "id": 16,
+        "tipo": "Energia",
+        "consumo": "1310 kWh",
+        "valor": "534.85",
+        "mes": "06/2025"
+    },
+    {
+        "id": 17,
+        "tipo": "Agua",
+        "consumo": "850 m³",
+        "valor": "153.00",
+        "mes": "06/2025"
+    },
+    {
+        "id": 18,
+        "tipo": "Gas",
+        "consumo": "430 kg",
+        "valor": "860.00",
+        "mes": "06/2025"
+    },
+    {
+        "id": 19,
+        "tipo": "Energia",
+        "consumo": "1420 kWh",
+        "valor": "579.52",
+        "mes": "07/2025"
+    },
+    {
+        "id": 20,
+        "tipo": "Agua",
+        "consumo": "895 m³",
+        "valor": "161.10",
+        "mes": "07/2025"
+    },
+    {
+        "id": 21,
+        "tipo": "Gas",
+        "consumo": "450 kg",
+        "valor": "900.00",
+        "mes": "07/2025"
+    },
+    {
+        "id": 22,
+        "tipo": "Energia",
+        "consumo": "1380 kWh",
+        "valor": "563.22",
+        "mes": "08/2025"
+    },
+    {
+        "id": 23,
+        "tipo": "Agua",
+        "consumo": "875 m³",
+        "valor": "157.50",
+        "mes": "08/2025"
+    },
+    {
+        "id": 24,
+        "tipo": "Gas",
+        "consumo": "440 kg",
+        "valor": "880.00",
+        "mes": "08/2025"
+    },
+    {
+        "id": 25,
+        "tipo": "Energia",
+        "consumo": "1260 kWh",
+        "valor": "514.44",
+        "mes": "09/2025"
+    },
+    {
+        "id": 26,
+        "tipo": "Agua",
+        "consumo": "820 m³",
+        "valor": "147.60",
+        "mes": "09/2025"
+    },
+    {
+        "id": 27,
+        "tipo": "Gas",
+        "consumo": "410 kg",
+        "valor": "820.00",
+        "mes": "09/2025"
+    },
+    {
+        "id": 28,
+        "tipo": "Energia",
+        "consumo": "1180 kWh",
+        "valor": "481.58",
+        "mes": "10/2025"
+    },
+    {
+        "id": 29,
+        "tipo": "Agua",
+        "consumo": "795 m³",
+        "valor": "143.10",
+        "mes": "10/2025"
+    },
+    {
+        "id": 30,
+        "tipo": "Gas",
+        "consumo": "395 kg",
+        "valor": "790.00",
+        "mes": "10/2025"
+    },
+    {
+        "id": 31,
+        "tipo": "Energia",
+        "consumo": "1150 kWh",
+        "valor": "469.35",
+        "mes": "11/2025"
+    },
+    {
+        "id": 32,
+        "tipo": "Agua",
+        "consumo": "780 m³",
+        "valor": "140.40",
+        "mes": "11/2025"
+    },
+    {
+        "id": 33,
+        "tipo": "Gas",
+        "consumo": "385 kg",
+        "valor": "770.00",
+        "mes": "11/2025"
+    },
+    {
+        "id": 34,
+        "tipo": "Energia",
+        "consumo": "1220 kWh",
+        "valor": "497.78",
+        "mes": "12/2025"
+    },
+    {
+        "id": 35,
+        "tipo": "Agua",
+        "consumo": "815 m³",
+        "valor": "146.70",
+        "mes": "12/2025"
+    },
+    {
+        "id": 36,
+        "tipo": "Gas",
+        "consumo": "408 kg",
+        "valor": "816.00",
+        "mes": "12/2025"
+    }
+]

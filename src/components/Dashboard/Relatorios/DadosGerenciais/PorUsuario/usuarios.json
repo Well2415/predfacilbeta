@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "nome": "SUPORTE.LORRAYNNE",
+        "inspecoes": 9,
+        "ocorrencias": 2,
+        "naoConformidades": 6,
+        "planosConcluidos": 2,
+        "dataAtividade": "2025-08-15"
+    },
+    {
+        "id": 2,
+        "nome": "SUPORTE.TACIANA",
+        "inspecoes": 1,
+        "ocorrencias": 0,
+        "naoConformidades": 1,
+        "planosConcluidos": 1,
+        "dataAtividade": "2025-08-20"
+    },
+    {
+        "id": 3,
+        "nome": "SUPORTE.PABLO",
+        "inspecoes": 3,
+        "ocorrencias": 0,
+        "naoConformidades": 0,
+        "planosConcluidos": 0,
+        "dataAtividade": "2025-08-22"
+    },
+    {
+        "id": 4,
+        "nome": "Pablo Nicolas Acevedo",
+        "inspecoes": 1,
+        "ocorrencias": 1,
+        "naoConformidades": 1,
+        "planosConcluidos": 0,
+        "dataAtividade": "2025-08-25"
+    },
+    {
+        "id": 5,
+        "nome": "ADMIN.SISTEMA",
+        "inspecoes": 15,
+        "ocorrencias": 5,
+        "naoConformidades": 12,
+        "planosConcluidos": 10,
+        "dataAtividade": "2025-08-28"
+    },
+    {
+        "id": 6,
+        "nome": "GESTOR.CONDOMINIO",
+        "inspecoes": 4,
+        "ocorrencias": 1,
+        "naoConformidades": 3,
+        "planosConcluidos": 1,
+        "dataAtividade": "2025-09-01"
+    },
+    {
+        "id": 7,
+        "nome": "TECNICO.MANUTENCAO",
+        "inspecoes": 7,
+        "ocorrencias": 3,
+        "naoConformidades": 5,
+        "planosConcluidos": 4,
+        "dataAtividade": "2025-09-05"
+    }
+]

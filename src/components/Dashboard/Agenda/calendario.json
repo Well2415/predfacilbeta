@@ -1,0 +1,54 @@
+{
+    "_instrucoes": {
+        "descricao": "Dados do Calendário de Agenda. Programador: substitua 'eventos' por um endpoint GET /api/agenda/eventos?mes=MM&ano=YYYY",
+        "versao": "1.0.0"
+    },
+    "calendario": {
+        "mes_atual": 2,
+        "ano_atual": 2026,
+        "eventos": [
+            {
+                "id": 1,
+                "dia": "07",
+                "titulo": "44820 – LIMPEZA CAIXA D'ÁGUA / ANUAL",
+                "descricao": "Higienização completa dos reservatórios do condomínio.",
+                "tipo": "manutencao"
+            },
+            {
+                "id": 2,
+                "dia": "09",
+                "titulo": "55201 – EXTINTORES / SEMESTRAL",
+                "descricao": "Verificação e recarga dos extintores. Manter equipamentos prontos para emergências.",
+                "tipo": "inspecao"
+            },
+            {
+                "id": 3,
+                "dia": "12",
+                "titulo": "77412 – PARA-RAIOS / ANUAL",
+                "descricao": "Checagem técnica do sistema de para-raios.",
+                "tipo": "inspecao"
+            },
+            {
+                "id": 4,
+                "dia": "14",
+                "titulo": "33662 – SAUNA / SEMANAL",
+                "descricao": "Inspeção e limpeza da sauna. Verificação dos sistemas de aquecimento e controle de temperatura.",
+                "tipo": "inspecao"
+            },
+            {
+                "id": 5,
+                "dia": "21",
+                "titulo": "36658 – GERADOR / SEMANAL",
+                "descricao": "Inspeção semanal do gerador: nível de combustível, óleo e funcionamento geral.",
+                "tipo": "manutencao"
+            },
+            {
+                "id": 6,
+                "dia": "25",
+                "titulo": "90334 – BOMBA HIDRÁULICA / TRIMESTRAL",
+                "descricao": "Inspeção completa dos sistemas de bombeamento.",
+                "tipo": "manutencao"
+            }
+        ]
+    }
+}

@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "nome": "38747 – BOMBAS",
+        "valor": 3700,
+        "periodo": "A cada 28 dias",
+        "dataManutencao": "2025-09-01",
+        "categoria": "Bombas"
+    },
+    {
+        "id": 2,
+        "nome": "38748 – BOMBAS SUBMERSAS (ESGOTO E ÁGUA NÃO POTÁVEL)",
+        "valor": 3700,
+        "periodo": "A cada 174 dias",
+        "dataManutencao": "2026-01-25",
+        "categoria": "Bombas"
+    },
+    {
+        "id": 3,
+        "nome": "38749 – VÁLVULAS REDUTORAS DE PRESSÃO",
+        "valor": 3700,
+        "periodo": "A cada 7 dias",
+        "dataManutencao": "2025-09-01",
+        "categoria": "Válvulas"
+    },
+    {
+        "id": 4,
+        "nome": "38750 – Acesso externo e Calçada",
+        "valor": 3700,
+        "periodo": "A cada 7 dias",
+        "dataManutencao": "2025-09-01",
+        "categoria": "Outros"
+    },
+    {
+        "id": 5,
+        "nome": "38751 – Antena Coletiva",
+        "valor": 3700,
+        "periodo": "A cada 28 dias",
+        "dataManutencao": "2025-09-01",
+        "categoria": "Antena Coletiva"
+    },
+    {
+        "id": 6,
+        "nome": "38752 – Apólice de Seguro",
+        "valor": 3700,
+        "periodo": "A cada 7 dias",
+        "dataManutencao": "2025-09-01",
+        "categoria": "Outros"
+    },
+    {
+        "id": 7,
+        "nome": "38753 – Aquecedor/Climatizador de Piscina/Ar-condicionado",
+        "valor": 3700,
+        "periodo": "A cada 7 dias",
+        "dataManutencao": "2025-09-01",
+        "categoria": "Ar-condicionado"
+    },
+    {
+        "id": 8,
+        "nome": "38754 – Aquecedor/Climatizador de Piscina/Ar-condicionado",
+        "valor": 3700,
+        "periodo": "A cada 7 dias",
+        "dataManutencao": "2025-09-01",
+        "categoria": "Ar-condicionado"
+    },
+    {
+        "id": 9,
+        "nome": "38755 – Área de lazer: Deck de Madeira",
+        "valor": 3700,
+        "periodo": "A cada 7 dias",
+        "dataManutencao": "2025-09-01",
+        "categoria": "Lazer"
+    },
+    {
+        "id": 10,
+        "nome": "38756 – Área de Lazer: Espaço Gourmet, Churrasqueiras e Fornos Externos",
+        "valor": 3700,
+        "periodo": "A cada 28 dias",
+        "dataManutencao": "2025-09-01",
+        "categoria": "Lazer"
+    },
+    {
+        "id": 11,
+        "nome": "38757 – BOMBAS DE INCÊNDIO",
+        "valor": 4200,
+        "periodo": "A cada 30 dias",
+        "dataManutencao": "2025-10-15",
+        "categoria": "Bombas"
+    },
+    {
+        "id": 12,
+        "nome": "38758 – ELEVADORES MENSAL",
+        "valor": 2500,
+        "periodo": "A cada 30 dias",
+        "dataManutencao": "2025-09-10",
+        "categoria": "Elevadores"
+    }
+]

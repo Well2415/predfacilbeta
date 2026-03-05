@@ -1,0 +1,205 @@
+{
+    "_instrucoes": {
+        "descricao": "Dados da Previsão Orçamentária. Programador: substitua por GET /api/previsao?ano=YYYY e GET /api/previsao/mes?ano=YYYY&mes=MM",
+        "versao": "1.0.0"
+    },
+    "anos": [
+        {
+            "id": 1,
+            "ano": "2025",
+            "valor_total": "R$ 861.942,51",
+            "total_inspecoes": 32
+        },
+        {
+            "id": 2,
+            "ano": "2026",
+            "valor_total": "R$ 893.167,33",
+            "total_inspecoes": 26
+        },
+        {
+            "id": 3,
+            "ano": "2027",
+            "valor_total": "R$ 921.486,72",
+            "total_inspecoes": 32
+        },
+        {
+            "id": 4,
+            "ano": "2028",
+            "valor_total": "R$ 908.754,19",
+            "total_inspecoes": 26
+        },
+        {
+            "id": 5,
+            "ano": "2029",
+            "valor_total": "R$ 955.283,44",
+            "total_inspecoes": 32
+        },
+        {
+            "id": 6,
+            "ano": "2030",
+            "valor_total": "R$ 979.514,02",
+            "total_inspecoes": 26
+        }
+    ],
+    "resumo_por_ano": {
+        "2026": {
+            "total_inspecoes": 26,
+            "fixos": "R$ 769.143,00",
+            "variaveis": "R$ 124.024,33",
+            "maior_gasto": "Outubro – R$ 89.782,00",
+            "menor_gasto": "Junho – R$ 64.095,25",
+            "media_mensal": "R$ 74.430,61",
+            "meses": [
+                {
+                    "id": 1,
+                    "nome": "Janeiro",
+                    "valor_total": "R$ 72.500,00",
+                    "fixos": "R$ 64.095,25",
+                    "variaveis": "R$ 8.404,75"
+                },
+                {
+                    "id": 2,
+                    "nome": "Fevereiro",
+                    "valor_total": "R$ 68.900,00",
+                    "fixos": "R$ 63.095,25",
+                    "variaveis": "R$ 5.804,75"
+                },
+                {
+                    "id": 3,
+                    "nome": "Março",
+                    "valor_total": "R$ 75.200,00",
+                    "fixos": "R$ 64.095,25",
+                    "variaveis": "R$ 11.104,75"
+                },
+                {
+                    "id": 4,
+                    "nome": "Abril",
+                    "valor_total": "R$ 78.400,00",
+                    "fixos": "R$ 64.095,25",
+                    "variaveis": "R$ 14.304,75"
+                },
+                {
+                    "id": 5,
+                    "nome": "Maio",
+                    "valor_total": "R$ 73.085,25",
+                    "fixos": "R$ 64.095,25",
+                    "variaveis": "R$ 8.990,00"
+                },
+                {
+                    "id": 6,
+                    "nome": "Junho",
+                    "valor_total": "R$ 64.095,25",
+                    "fixos": "R$ 64.095,25",
+                    "variaveis": "R$ 1.470,00"
+                },
+                {
+                    "id": 7,
+                    "nome": "Julho",
+                    "valor_total": "R$ 74.927,25",
+                    "fixos": "R$ 64.095,25",
+                    "variaveis": "R$ 10.832,00"
+                },
+                {
+                    "id": 8,
+                    "nome": "Agosto",
+                    "valor_total": "R$ 67.095,25",
+                    "fixos": "R$ 64.095,25",
+                    "variaveis": "R$ 3.000,00"
+                },
+                {
+                    "id": 9,
+                    "nome": "Setembro",
+                    "valor_total": "R$ 82.004,15",
+                    "fixos": "R$ 64.095,25",
+                    "variaveis": "R$ 17.908,90"
+                },
+                {
+                    "id": 10,
+                    "nome": "Outubro",
+                    "valor_total": "R$ 89.782,00",
+                    "fixos": "R$ 64.095,25",
+                    "variaveis": "R$ 25.686,75"
+                },
+                {
+                    "id": 11,
+                    "nome": "Novembro",
+                    "valor_total": "R$ 83.082,93",
+                    "fixos": "R$ 64.095,25",
+                    "variaveis": "R$ 18.987,68"
+                },
+                {
+                    "id": 12,
+                    "nome": "Dezembro",
+                    "valor_total": "R$ 64.095,25",
+                    "fixos": "R$ 64.095,25",
+                    "variaveis": "R$ 0,00"
+                }
+            ]
+        }
+    },
+    "itens_por_mes": {
+        "_nota": "Programador: retorne os itens filtrados por ano e mês via GET /api/previsao/itens?ano=YYYY&mes=MM",
+        "2026-01": [
+            {
+                "id": 1,
+                "nome": "Incêndio (PRIMAZZIA)",
+                "categoria": "Fixo",
+                "valor": "R$ 970,52"
+            },
+            {
+                "id": 2,
+                "nome": "Plano de Manutenção Preventiva Digital (PRED FÁCIL)",
+                "categoria": "Fixo",
+                "valor": "R$ 780,00"
+            },
+            {
+                "id": 3,
+                "nome": "Monitoramento das Bombas dos Reservatórios (INLAINE)",
+                "categoria": "Fixo",
+                "valor": "R$ 170,00"
+            },
+            {
+                "id": 4,
+                "nome": "Segurança (TECNOSEG)",
+                "categoria": "Fixo",
+                "valor": "R$ 596,12"
+            },
+            {
+                "id": 5,
+                "nome": "Acesso/Leitor Facial (SOFTCON)",
+                "categoria": "Fixo",
+                "valor": "R$ 882,00"
+            },
+            {
+                "id": 6,
+                "nome": "Serviço de Conservação, Portaria e Zeladoria (TECNOSEG)",
+                "categoria": "Fixo",
+                "valor": "R$ 53.485,45"
+            },
+            {
+                "id": 7,
+                "nome": "Engenharia (MARISTA ENGENHARIA)",
+                "categoria": "Fixo",
+                "valor": "R$ 1.755,00"
+            },
+            {
+                "id": 8,
+                "nome": "Elevadores (SCHINDLER)",
+                "categoria": "Fixo",
+                "valor": "R$ 5.456,16"
+            },
+            {
+                "id": 9,
+                "nome": "Caixa de Gordura",
+                "categoria": "Variavel",
+                "valor": "R$ 2.400,00"
+            },
+            {
+                "id": 10,
+                "nome": "Manutenção de AR-Condicionado",
+                "categoria": "Variavel",
+                "valor": "R$ 6.590,00"
+            }
+        ]
+    }
+}

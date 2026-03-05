@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "tipo": "Curto-Circuito em Instalações Elétricas",
+        "procedimentos": [
+            "No caso de desligamento automático de disjuntores e, consequentemente, das partes afetadas pela falha, voltar o disjuntor correspondente à sua posição original. Caso o disjuntor volte a desligar, não se deve tentar ligar novamente.",
+            "Nestes casos, deve-se isolar a área ou equipamento afetado e acionar imediatamente um eletricista capacitado ou empresa especializada para diagnóstico e reparo.",
+            "Verificar se há odor de queimado ou fumaça vindo de quadros elétricos ou tomadas."
+        ]
+    },
+    {
+        "id": 2,
+        "tipo": "Entupimento em Tubulações de Esgoto e Águas Pluviais",
+        "procedimentos": [
+            "No caso de entupimento na rede de coleta de esgoto e águas pluviais, avisar a equipe de manutenção local.",
+            "Caso não seja possível a resolução do entupimento pela equipe local, acionar imediatamente uma empresa especializada (desentupidora).",
+            "Sinalizar a área afetada para evitar o uso de pias, ralos ou vasos sanitários entupidos, prevenindo transbordamentos."
+        ]
+    },
+    {
+        "id": 3,
+        "tipo": "Falta de Água",
+        "procedimentos": [
+            "Verificar se o problema é localizado (apenas em parte do condomínio). Se for, verificar se os registros estão abertos.",
+            "Caso os registros estejam abertos, retirar a peça de utilização (torneira, ducha, chuveiro etc.) mais próxima para liberar o ar que possa estar bloqueando a rede.",
+            "Consultar a concessionária local para verificar se há interrupção no fornecimento externo ou manutenção na rede pública."
+        ]
+    },
+    {
+        "id": 4,
+        "tipo": "Incêndio",
+        "procedimentos": [
+            "Para garantir a segurança dos usuários do Condomínio e atender à Lei nº 15.802, de 11 de setembro de 2006, orienta-se constituir uma brigada de incêndio.",
+            "Acionar imediatamente o Corpo de Bombeiros (193).",
+            "Iniciar os procedimentos de evacuação conforme o plano de abandono do edifício, priorizando a segurança das pessoas.",
+            "Utilizar os equipamentos de combate a incêndio (extintores, hidrantes) apenas se houver treinamento e o fogo estiver em estágio inicial (princípio de incêndio)."
+        ]
+    },
+    {
+        "id": 5,
+        "tipo": "Vazamento em Tubulação de Gás",
+        "procedimentos": [
+            "Caso seja verificado pequeno vazamento de gás em algum aparelho, fechar imediatamente o registro de segurança do equipamento e da área.",
+            "Abrir portas e janelas para ventilar o ambiente. Não acender luzes, não utilizar isqueiros ou qualquer equipamento que possa gerar faísca.",
+            "Caso o vazamento seja grande ou em área comum, evacuar o prédio e acionar a concessionária de gás e o Corpo de Bombeiros imediatamente."
+        ]
+    },
+    {
+        "id": 6,
+        "tipo": "Vazamento em Tubulações Hidráulicas",
+        "procedimentos": [
+            "Fechar os registros correspondentes ao local do vazamento para minimizar danos à estrutura e acabamentos.",
+            "Avisar a equipe de manutenção local e acionar imediatamente uma empresa especializada para identificação da origem e reparo.",
+            "Secar as áreas inundadas para evitar infiltrações em unidades inferiores ou áreas comuns."
+        ]
+    },
+    {
+        "id": 7,
+        "tipo": "Pane em Elevadores",
+        "procedimentos": [
+            "Caso haja pessoas presas, manter a calma e comunicar-se via interfone do elevador.",
+            "Não tentar abrir as portas ou resgatar passageiros por conta própria. Esse procedimento é exclusivo da empresa de manutenção de elevadores ou do Corpo de Bombeiros.",
+            "Acionar imediatamente a assistência técnica autorizada da empresa mantenedora dos elevadores."
+        ]
+    }
+]

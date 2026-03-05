@@ -1,0 +1,88 @@
+{
+    "relatorios": [
+        {
+            "id": 1,
+            "nome": "0 – Teste",
+            "enviadoPor": "Pablo Nicolás Acevedo",
+            "previsto": "12/11/2025",
+            "respondido": "13/10/2025 – 13:46"
+        },
+        {
+            "id": 2,
+            "nome": "36659 – JARDIM/SEMANAL",
+            "enviadoPor": "SUPORTE.PABLO",
+            "previsto": "12/11/2025",
+            "respondido": "08/09/2025 – 15:31"
+        },
+        {
+            "id": 3,
+            "nome": "36658 – GERADOR/SEMANAL",
+            "enviadoPor": "SUPORTE.PABLO",
+            "previsto": "12/11/2025",
+            "respondido": "05/08/2025 – 11:37"
+        },
+        {
+            "id": 4,
+            "nome": "36660 – PALYGROUND/SEMANAL",
+            "enviadoPor": "SUPORTE.PABLO",
+            "previsto": "12/11/2025",
+            "respondido": "08/09/2025 – 15:31"
+        },
+        {
+            "id": 5,
+            "nome": "36661 – RESERVATÓRIOS/SEMANAL",
+            "enviadoPor": "SUPORTE.PABLO",
+            "previsto": "12/11/2025",
+            "respondido": "05/08/2025 – 11:37"
+        },
+        {
+            "id": 6,
+            "nome": "36659 – JARDIM/SEMANAL",
+            "enviadoPor": "SUPORTE.PABLO",
+            "previsto": "12/11/2025",
+            "respondido": "05/08/2025 – 11:37"
+        },
+        {
+            "id": 7,
+            "nome": "36517 – PORTÃO/SEMANAL",
+            "enviadoPor": "SUPORTE.LORRAYNNE",
+            "previsto": "12/11/2025",
+            "respondido": "08/09/2025 – 15:31"
+        },
+        {
+            "id": 8,
+            "nome": "36520 – AR-CONDICIONADO/MENSAL",
+            "enviadoPor": "SUPORTE.LORRAYNNE",
+            "previsto": "12/11/2025",
+            "respondido": "05/08/2025 – 11:37"
+        },
+        {
+            "id": 9,
+            "nome": "36541 – CERCA ELÉTRICA/SEMESTRAL",
+            "enviadoPor": "SUPORTE.LORRAYNNE",
+            "previsto": "12/11/2025",
+            "respondido": "08/09/2025 – 15:31"
+        },
+        {
+            "id": 10,
+            "nome": "35129 – GERADOR/SEMANAL",
+            "enviadoPor": "SUPORTE.PABLO",
+            "previsto": "12/11/2025",
+            "respondido": "05/08/2025 – 11:37"
+        },
+        {
+            "id": 11,
+            "nome": "36500 – ELEVADOR/MENSAL",
+            "enviadoPor": "SUPORTE.MARCOS",
+            "previsto": "15/11/2025",
+            "respondido": "14/11/2025 – 09:12"
+        },
+        {
+            "id": 12,
+            "nome": "36501 – PISCINA/DIÁRIA",
+            "enviadoPor": "SUPORTE.MARCOS",
+            "previsto": "16/11/2025",
+            "respondido": "16/11/2025 – 08:30"
+        }
+    ]
+}

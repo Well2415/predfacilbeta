@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "cargo": "Administrador do condomínio/Síndico",
+        "descricao": "Administrar os recursos para a realização da manutenção;\nAssegurar que seja estabelecido o modo de comunicação apropriado em todos os níveis da edificação;\nAssegurar que sejam planejadas, realizadas e registradas as manutenções, bem como o cumprimento do Plano de Manutenção."
+    },
+    {
+        "id": 2,
+        "cargo": "Chefe da Manutenção Predial/Zelador",
+        "descricao": "Garantir que sejam feitas as vistorias e reparos indicados no Plano de Manutenção;\nGerenciar e manter atualizada a documentação, seus registros e seu fluxo pertinente à gestão da manutenção do edifício."
+    },
+    {
+        "id": 3,
+        "cargo": "Empresa Capacitada",
+        "descricao": "Realizar os serviços de acordo com as normas técnicas e capacitação ou orientação recebida, conforme a gestão da manutenção estabelecida no manual de uso, operação e manutenção da edificação."
+    },
+    {
+        "id": 4,
+        "cargo": "Empresa Especializada",
+        "descricao": "Realizar os serviços de acordo com as normas técnicas, projetos, Plano de Manutenção e orientações do manual do fabricante do equipamento, além de fornecer a respectiva ART/RRT de execução."
+    },
+    {
+        "id": 5,
+        "cargo": "Equipe de Manutenção Local",
+        "descricao": "Executar os serviços de manutenção, de acordo com as normas técnicas, atender ao sistema de gestão de manutenção do edifício. Solicitar treinamento e orientações antes de proceder manutenção, engloba pessoal do condomínio e prestadores autônomos."
+    },
+    {
+        "id": 6,
+        "cargo": "Incorporadora/Construtora",
+        "descricao": "Entregar o termo de garantia, manual do proprietário e manual de uso, operação e manutenção da edificação;\nEntregar as notas fiscais dos equipamentos instalados, projetos técnicos e documentações legais."
+    },
+    {
+        "id": 7,
+        "cargo": "Proprietário da Unidade",
+        "descricao": "Realizar a manutenção de sua unidade autônoma de acordo com o manual do proprietário e as normas vigentes, evitando danos às áreas comuns e unidades vizinhas."
+    }
+]

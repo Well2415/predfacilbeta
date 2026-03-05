@@ -1,0 +1,134 @@
+[
+    {
+        "id": 1,
+        "nome": "PALYGROUND/SEMANAL",
+        "descricao": "Verificar brinquedos quanto a farpas, pontas de parafusos, cantos vivos, oxidação, peças metálicas, pisos soltos/quebrados, fiação exposta e riscos.",
+        "responsavel": "SUPORTE.TACIANA",
+        "status": "Resolvido",
+        "agendamento": "Não agendado",
+        "data": "19/05/2025 – 15:51",
+        "criticidade": "Regular",
+        "maobra": "Local"
+    },
+    {
+        "id": 2,
+        "nome": "DIVERSOS – Teste",
+        "descricao": "Teste de funcionamento do sistema de alarme de incêndio.",
+        "responsavel": "SUPORTE.LORRAYNNE",
+        "status": "Resolvido",
+        "agendamento": "Não agendado",
+        "data": "02/06/2025 – 09:50",
+        "criticidade": "Mínimo",
+        "maobra": "Local"
+    },
+    {
+        "id": 3,
+        "nome": "JARDIM/SEMANAL",
+        "descricao": "Verificar dispositivos de irrigação, iluminação, fiação, pisos, caixas de passagem danificadas.",
+        "responsavel": "SUPORTE.LORRAYNNE",
+        "status": "Resolvido",
+        "agendamento": "Não agendado",
+        "data": "02/06/2025 – 09:52",
+        "criticidade": "Mínimo",
+        "maobra": "Local"
+    },
+    {
+        "id": 4,
+        "nome": "PISO, PAREDE, TETO e ESTRUTURA APARENTE/ANUAL",
+        "descricao": "Verificar falhas em rejuntes, fissuras, manchas, deslocamentos, exposição de aço, infiltrações e anomalias.",
+        "responsavel": "SUPORTE.LORRAYNNE",
+        "status": "Resolvido",
+        "agendamento": "Não agendado",
+        "data": "19/05/2025 – 15:51",
+        "criticidade": "Crítico",
+        "maobra": "Empresa Especializada"
+    },
+    {
+        "id": 5,
+        "nome": "SAUNA/ANUAL",
+        "descricao": "Contatar empresa especializada para manutenção preventiva da sauna.",
+        "responsavel": "SUPORTE.LORRAYNNE",
+        "status": "Pendente",
+        "agendamento": "Não agendado",
+        "data": "19/05/2025 – 15:51",
+        "criticidade": "Regular",
+        "maobra": "Empresa Especializada"
+    },
+    {
+        "id": 6,
+        "nome": "CERCA ELÉTRICA/SEMESTRAL",
+        "descricao": "Verificar integridade, fixação e oxidação de componentes e fios.",
+        "responsavel": "SUPORTE.LORRAYNNE",
+        "status": "Resolvido",
+        "agendamento": "Não agendado",
+        "data": "19/05/2025 – 15:51",
+        "criticidade": "Crítico",
+        "maobra": "Empresa Especializada"
+    },
+    {
+        "id": 7,
+        "nome": "PORTÃO AUTOMÁTICO/MENSAL",
+        "descricao": "Testar motores, lubrificação, sensores de segurança, fotocélulas e cremalheiras; verificar ruídos e travamentos.",
+        "responsavel": "SUPORTE.PABLO",
+        "status": "Pendente",
+        "agendamento": "Não agendado",
+        "data": "19/05/2025 – 15:51",
+        "criticidade": "Regular",
+        "maobra": "Empresa Especializada"
+    },
+    {
+        "id": 8,
+        "nome": "CFTV/TRIMESTRAL",
+        "descricao": "Verificar gravação contínua, alinhamento das câmeras, limpeza das lentes, estabilidade da rede e integridade dos cabos.",
+        "responsavel": "SUPORTE.TACIANA",
+        "status": "Resolvido",
+        "agendamento": "Não agendado",
+        "data": "19/05/2025 – 15:51",
+        "criticidade": "Mínimo",
+        "maobra": "Local"
+    },
+    {
+        "id": 9,
+        "nome": "GERADOR/ANUAL",
+        "descricao": "Realizar teste de carga, troca de óleo, inspeção de filtros, correias, abrasões, vazamentos e sistema de exaustão.",
+        "responsavel": "SUPORTE.TACIANA",
+        "status": "Resolvido",
+        "agendamento": "Não agendado",
+        "data": "19/05/2025 – 15:51",
+        "criticidade": "Crítico",
+        "maobra": "Empresa Especializada"
+    },
+    {
+        "id": 10,
+        "nome": "ELEVADOR/MENSAL",
+        "descricao": "Checar nível de óleo, comunicação de emergência, freios, portas, sensores de presença e ruídos anormais.",
+        "responsavel": "SUPORTE.PABLO",
+        "status": "Resolvido",
+        "agendamento": "Não agendado",
+        "data": "19/05/2025 – 15:51",
+        "criticidade": "Crítico",
+        "maobra": "Empresa Especializada"
+    },
+    {
+        "id": 11,
+        "nome": "PISCINA/SEMANAL",
+        "descricao": "Verificar nível de cloro, pH da água, funcionamento das bombas, filtros e limpeza de ralos.",
+        "responsavel": "SUPORTE.TACIANA",
+        "status": "Resolvido",
+        "agendamento": "Não agendado",
+        "data": "10/07/2025 – 08:00",
+        "criticidade": "Regular",
+        "maobra": "Local"
+    },
+    {
+        "id": 12,
+        "nome": "ACADEMIA/MENSAL",
+        "descricao": "Verificar equipamentos de musculação quanto a roscas soltas, borrachas desgastadas, correntes e cabos.",
+        "responsavel": "SUPORTE.CARLOS",
+        "status": "Pendente",
+        "agendamento": "Não agendado",
+        "data": "15/07/2025 – 09:00",
+        "criticidade": "Mínimo",
+        "maobra": "Local"
+    }
+]

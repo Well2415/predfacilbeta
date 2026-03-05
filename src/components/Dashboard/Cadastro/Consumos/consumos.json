@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "tipo": "Energia",
+        "valor": "482.90",
+        "consumo": "1128 kWh",
+        "vencimento": "10/01/2025",
+        "pagamento": "09/01/2025",
+        "observacoes": ""
+    },
+    {
+        "id": 2,
+        "tipo": "Agua",
+        "valor": "138.72",
+        "consumo": "812 m³",
+        "vencimento": "10/01/2025",
+        "pagamento": "09/01/2025",
+        "observacoes": ""
+    },
+    {
+        "id": 3,
+        "tipo": "Gas",
+        "valor": "754.00",
+        "consumo": "376 kg",
+        "vencimento": "10/01/2025",
+        "pagamento": "09/01/2025",
+        "observacoes": ""
+    },
+    {
+        "id": 4,
+        "tipo": "Energia",
+        "valor": "501.33",
+        "consumo": "1204 kWh",
+        "vencimento": "10/02/2025",
+        "pagamento": "09/02/2025",
+        "observacoes": ""
+    },
+    {
+        "id": 5,
+        "tipo": "Agua",
+        "valor": "142.19",
+        "consumo": "790 m\u00b3",
+        "vencimento": "10/02/2025",
+        "pagamento": "09/02/2025",
+        "observacoes": ""
+    },
+    {
+        "id": 6,
+        "tipo": "Gas",
+        "valor": "812.50",
+        "consumo": "402 kg",
+        "vencimento": "10/02/2025",
+        "pagamento": "09/02/2025",
+        "observacoes": ""
+    },
+    {
+        "id": 7,
+        "tipo": "Energia",
+        "valor": "478.44",
+        "consumo": "1087 kWh",
+        "vencimento": "10/03/2025",
+        "pagamento": "09/03/2025",
+        "observacoes": ""
+    },
+    {
+        "id": 8,
+        "tipo": "Agua",
+        "valor": "133.10",
+        "consumo": "765 m\u00b3",
+        "vencimento": "10/03/2025",
+        "pagamento": "09/03/2025",
+        "observacoes": ""
+    },
+    {
+        "id": 9,
+        "tipo": "Gas",
+        "valor": "780.90",
+        "consumo": "389 kg",
+        "vencimento": "10/03/2025",
+        "pagamento": "09/03/2025",
+        "observacoes": ""
+    },
+    {
+        "id": 10,
+        "tipo": "Energia",
+        "valor": "510.22",
+        "consumo": "1245 kWh",
+        "vencimento": "10/04/2025",
+        "pagamento": "09/04/2025",
+        "observacoes": ""
+    }
+]

@@ -1,0 +1,202 @@
+{
+    "_instrucoes": {
+        "descricao": "Arquivo de exemplo para integração com banco de dados. Cada chave representa uma seção do Dashboard. O programador deve substituir os dados estáticos por chamadas à API/banco de dados correspondentes.",
+        "autor": "Pred Fácil",
+        "versao": "1.0.0",
+        "atualizado_em": "2026-02-23"
+    },
+    "condominio": {
+        "id": 1,
+        "nome": "Jardins Residence",
+        "sigla": "JR",
+        "cor_tema": "#3F4836"
+    },
+    "filtros_equipamentos": {
+        "_nota": "Programador: retorne estas listas dinamicamente conforme os dados disponíveis no banco.",
+        "periodos": [
+            "Última semana",
+            "Último mês",
+            "Último trimestre",
+            "Último ano"
+        ],
+        "condominios": [
+            "Jardins Residence"
+        ],
+        "tipos_equipamento": [
+            "Todos",
+            "Bombas",
+            "Reservatórios",
+            "Gerador",
+            "Elevador"
+        ]
+    },
+    "proximas_manutencoes": [
+        {
+            "id": 1,
+            "codigo": "44820",
+            "titulo": "LIMPEZA CAIXA D'ÁGUA / ANUAL",
+            "descricao": "Higienização completa.",
+            "dia_semana": "DOM",
+            "dia": "7",
+            "mes": "09",
+            "ano": "2025"
+        },
+        {
+            "id": 2,
+            "codigo": "55201",
+            "titulo": "EXTINTORES / SEMESTRAL",
+            "descricao": "Manter equipamentos prontos para emergências.",
+            "dia_semana": "TER",
+            "dia": "9",
+            "mes": "09",
+            "ano": "2025"
+        },
+        {
+            "id": 3,
+            "codigo": "77412",
+            "titulo": "PARA-RAIOS / ANUAL",
+            "descricao": "Checagem técnica.",
+            "dia_semana": "SEX",
+            "dia": "12",
+            "mes": "09",
+            "ano": "2025"
+        },
+        {
+            "id": 4,
+            "codigo": "66109",
+            "titulo": "ELEVADORES / MENSAL",
+            "descricao": "Manutenção preventiva.",
+            "dia_semana": "SEX",
+            "dia": "12",
+            "mes": "09",
+            "ano": "2025"
+        },
+        {
+            "id": 5,
+            "codigo": "90334",
+            "titulo": "BOMBA HIDRÁULICA / TRIMESTRAL",
+            "descricao": "Inspeção dos sistemas.",
+            "dia_semana": "QUI",
+            "dia": "25",
+            "mes": "09",
+            "ano": "2025"
+        }
+    ],
+    "saude_condominio": {
+        "saude_geral": {
+            "percentual": 85,
+            "status_label": "Excelente",
+            "status_cor_texto": "#027A48",
+            "status_cor_fundo": "#E6F9F1",
+            "cor_grafico": "#62DF7D"
+        },
+        "pontualidade": {
+            "percentual": 25,
+            "status_label": "Em dias",
+            "status_cor_texto": "#027A48",
+            "status_cor_fundo": "#E6F9F1",
+            "cor_grafico": "#62DF7D",
+            "totalizacao": 8,
+            "em_dias": 2,
+            "atrasadas": 6
+        },
+        "conformidade": {
+            "percentual": 61,
+            "status_label": "Conforme",
+            "status_cor_texto": "#027A48",
+            "status_cor_fundo": "#E6F9F1",
+            "cor_grafico": "#62DF7D",
+            "concluidas": 18,
+            "conformes": 11,
+            "nao_conformes": 7
+        },
+        "resolucao": {
+            "percentual": 77,
+            "status_label": "Resolvido",
+            "status_cor_texto": "#027A48",
+            "status_cor_fundo": "#E6F9F1",
+            "cor_grafico": "#62DF7D",
+            "totais": 3,
+            "resolvidas": 5,
+            "pendentes": 1
+        }
+    },
+    "equipamentos": {
+        "bombas": [
+            {
+                "id": 1,
+                "nome": "Bomba 1",
+                "percentual": 27,
+                "status_label": "Em condição crítica",
+                "status_cor_fundo": "#FBDFDF",
+                "cor_grafico": "#FBDFDF"
+            },
+            {
+                "id": 2,
+                "nome": "Bomba 2",
+                "percentual": 42,
+                "status_label": "Não Conforme",
+                "status_cor_fundo": "rgba(255, 206, 28, 0.5)",
+                "cor_grafico": "rgba(255, 206, 28, 0.5)"
+            },
+            {
+                "id": 3,
+                "nome": "Bomba 3",
+                "percentual": 67,
+                "status_label": "Conforme",
+                "status_cor_fundo": "#E6F9F1",
+                "cor_grafico": "#62DF7D"
+            },
+            {
+                "id": 4,
+                "nome": "Bomba 4",
+                "percentual": 79,
+                "status_label": "Conforme",
+                "status_cor_fundo": "#E6F9F1",
+                "cor_grafico": "#62DF7D"
+            }
+        ],
+        "reservatorios": [
+            {
+                "id": 1,
+                "nome": "Reservatório 1",
+                "percentual": 89,
+                "icone": "cheio",
+                "status_label": "Conforme",
+                "status_cor_fundo": "#E6F9F1",
+                "ultima_atualizacao": "23/02/2026",
+                "_nota_icone": "Use 'cheio' (IconeReservatorio) quando percentual >= 50. Use 'baixo' (IconeReservatorio2) quando percentual < 50."
+            },
+            {
+                "id": 2,
+                "nome": "Reservatório 2",
+                "percentual": 31,
+                "icone": "baixo",
+                "status_label": "Não Conforme",
+                "status_cor_fundo": "#FFE78E",
+                "ultima_atualizacao": "23/02/2026",
+                "_nota_icone": "Use 'cheio' (IconeReservatorio) quando percentual >= 50. Use 'baixo' (IconeReservatorio2) quando percentual < 50."
+            }
+        ],
+        "gerador": {
+            "id": 1,
+            "nome": "Gerador",
+            "status_label": "Conforme",
+            "status_cor_fundo": "#E6F9F1",
+            "nivel_combustivel": true,
+            "nivel_oleo": true,
+            "ultima_manutencao": true,
+            "_nota_icones": "true = IconeCerto (verde), false = IconeErrado (vermelho)"
+        },
+        "elevador": {
+            "id": 1,
+            "nome": "Elevador",
+            "status_label": "Atenção",
+            "status_cor_fundo": "rgba(255, 206, 28, 0.5)",
+            "tempo_resposta": true,
+            "ruido_motor": false,
+            "ultima_manutencao": false,
+            "_nota_icones": "true = IconeCerto (verde), false = IconeErrado (vermelho)"
+        }
+    }
+}
