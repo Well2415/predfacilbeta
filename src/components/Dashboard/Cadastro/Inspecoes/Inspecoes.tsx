@@ -111,6 +111,8 @@ export const Inspecoes: React.FC<InspecoesProps> = ({
         paginaProc * hook.itensPorPaginaProc
     );
 
+    const allProcSelected = procedimentosPagina.length > 0 && procedimentosPagina.every(p => hook.selectedProcIds.has(p.id));
+
     if (view === 'inspecoes') {
         return (
             <div className="flex flex-col gap-[32px] animate-in fade-in slide-in-from-bottom-2 duration-300 w-full">
@@ -492,8 +494,29 @@ export const Inspecoes: React.FC<InspecoesProps> = ({
                 <div className="flex flex-col gap-[32px] w-full flex-1">
                     <div className="flex flex-col w-full">
                         <div className="px-[20px] py-[12px] flex items-center w-full bg-white border-b border-[#F0F0F0]">
-                            <div className="w-[40px] flex items-center justify-center">
-                                <div className="w-[18px] h-[18px] border-[1.5px] border-[#D1D5DB] bg-white rounded-[4px] cursor-pointer" />
+                             <div className="w-[40px] flex items-center justify-center relative">
+                                <div
+                                    onClick={() => hook.toggleAllProc(procedimentosPagina)}
+                                    className={`w-[18px] h-[18px] border-[1.5px] ${allProcSelected ? 'border-[#F78800] bg-[#F78800]' : 'border-[#D1D5DB] bg-white'} rounded-[4px] cursor-pointer flex items-center justify-center transition-colors`}
+                                >
+                                    {allProcSelected && (
+                                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                            <path d="M10 3L4.5 8.5L2 6" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                        </svg>
+                                    )}
+                                </div>
+                                {allProcSelected && hook.selectedProcIds.size > 0 && selectedInspecao && (
+                                    <div
+                                        onClick={() => hook.excluirProcedimentosSelecionados(selectedInspecao.id)}
+                                        className="absolute top-[30px] left-[0px] bg-white shadow-lg rounded-[4px] p-[10px] flex items-center gap-[8px] z-20 border border-[#F0F0F0] min-w-[140px] cursor-pointer hover:bg-red-50 transition-colors animate-in fade-in zoom-in-95 duration-200"
+                                    >
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                                            <path d="M3 6H5H21" stroke="#E63939" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+                                            <path d="M8 6V4C8 2.89543 8.89543 2 10 2H14C15.1046 2 16 2.89543 16 4V6M19 6V20C19 21.1046 18.1046 22 17 22H7C5.89543 22 5 21.1046 5 20V6H19Z" stroke="#E63939" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+                                        </svg>
+                                        <span className="text-[#E63939] text-[14px] font-bold font-['DM_Sans'] whitespace-nowrap">Excluir grupo</span>
+                                    </div>
+                                )}
                             </div>
                             <div className="flex-1 text-[#3B4141] text-[18px] font-semibold font-['DM_Sans']">Nome</div>
                             <div className="w-[200px] text-[#3B4141] text-[18px] font-semibold font-['DM_Sans']">Atualizado em</div>
@@ -516,7 +539,16 @@ export const Inspecoes: React.FC<InspecoesProps> = ({
                                             className={`px-[20px] py-[16px] border-b border-[#F0F0F0] flex items-center w-full transition-all ${isExcluindo ? 'border-red-300 bg-red-50 shadow-sm' : 'hover:bg-gray-50'}`}
                                         >
                                             <div className="w-[40px] flex items-center justify-center">
-                                                <div className="w-[18px] h-[18px] border-[1.5px] border-[#D1D5DB] bg-white rounded-[4px] cursor-pointer" />
+                                                <div
+                                                    onClick={() => hook.toggleOneProc(proc.id)}
+                                                    className={`w-[18px] h-[18px] border-[1.5px] ${hook.selectedProcIds.has(proc.id) ? 'border-[#F78800] bg-[#F78800]' : 'border-[#D1D5DB] bg-white'} rounded-[4px] cursor-pointer flex items-center justify-center transition-colors`}
+                                                >
+                                                    {hook.selectedProcIds.has(proc.id) && (
+                                                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                                            <path d="M10 3L4.5 8.5L2 6" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                        </svg>
+                                                    )}
+                                                </div>
                                             </div>
                                             <div className="flex-1 text-[#3B4141] text-[16px] font-normal font-['DM_Sans']">{proc.name}</div>
                                             <div className="w-[200px] text-[#3B4141] text-[16px] font-normal font-['DM_Sans']">{proc.updated}</div>

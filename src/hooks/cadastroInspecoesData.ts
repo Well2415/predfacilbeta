@@ -39,6 +39,7 @@ export function cadastroInspecoesData() {
     const [dataAteProc, setDataAteProc] = useState('');
     const [paginaAtualProc, setPaginaAtualProc] = useState(1);
     const [itensPorPaginaProc, setItensPorPaginaProc] = useState(10);
+    const [selectedProcIds, setSelectedProcIds] = useState<Set<number>>(new Set());
 
     useEffect(() => {
         const load = async () => {
@@ -114,14 +115,34 @@ export function cadastroInspecoesData() {
         setSelectedIds(new Set());
     };
 
-    const adicionarInspecao = (inspecao: Omit<InspecaoItem, 'id'>) => {
+    const adicionarInspecao = (inspecao: Omit<InspecaoItem, 'id'>, procedures?: Omit<ProcedimentoItem, 'id'>[]) => {
         const novoId = Math.max(0, ...inspecoes.map((i) => i.id)) + 1;
         setInspecoes((prev) => [{ ...inspecao, id: novoId }, ...prev]);
+        
+        if (procedures && procedures.length > 0) {
+            const idStr = String(novoId);
+            const novosP = procedures.map((p, index) => ({
+                ...p,
+                id: index + 1
+            }));
+            setProcedimentosMapa(prev => ({
+                ...prev,
+                [idStr]: novosP
+            }));
+        }
+        
         return novoId;
     };
 
-    const editarInspecao = (id: number, dados: Partial<InspecaoItem>) => {
+    const editarInspecao = (id: number, dados: Partial<InspecaoItem>, procedures?: ProcedimentoItem[]) => {
         setInspecoes((prev) => prev.map((i) => (i.id === id ? { ...i, ...dados } : i)));
+        
+        if (procedures) {
+            setProcedimentosMapa(prev => ({
+                ...prev,
+                [String(id)]: procedures
+            }));
+        }
     };
 
     const adicionarProcedimento = (inspecaoId: number, procedimento: Omit<ProcedimentoItem, 'id'>) => {
@@ -211,6 +232,36 @@ export function cadastroInspecoesData() {
         return lista;
     }, [procedimentosMapa, buscaProc, dataDeProc, dataAteProc]);
 
+    const toggleAllProc = (procedimentosNaPagina: ProcedimentoItem[]) => {
+        const allSelected = procedimentosNaPagina.length > 0 && procedimentosNaPagina.every(p => selectedProcIds.has(p.id));
+        setSelectedProcIds(prev => {
+            const next = new Set(prev);
+            if (allSelected) {
+                procedimentosNaPagina.forEach(p => next.delete(p.id));
+            } else {
+                procedimentosNaPagina.forEach(p => next.add(p.id));
+            }
+            return next;
+        });
+    };
+
+    const toggleOneProc = (id: number) => {
+        setSelectedProcIds(prev => {
+            const next = new Set(prev);
+            next.has(id) ? next.delete(id) : next.add(id);
+            return next;
+        });
+    };
+
+    const excluirProcedimentosSelecionados = (inspecaoId: number) => {
+        const idStr = String(inspecaoId);
+        setProcedimentosMapa(prev => ({
+            ...prev,
+            [idStr]: (prev[idStr] ?? []).filter(p => !selectedProcIds.has(p.id))
+        }));
+        setSelectedProcIds(new Set());
+    };
+
     return {
         loading,
         itensPagina,
@@ -253,7 +304,12 @@ export function cadastroInspecoesData() {
         getProcedimentosFiltrados,
         limparFiltrosProc,
         excluirProcedimento,
-        editarProcedimento
+        editarProcedimento,
+        // Seleção Procedimentos
+        selectedProcIds,
+        toggleAllProc,
+        toggleOneProc,
+        excluirProcedimentosSelecionados
     };
 }
 

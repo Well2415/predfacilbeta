@@ -801,6 +801,7 @@ export function Dashboard({ onLogout }: DashboardProps) {
                         inspecaoParaEditar={inspecaoParaEditar}
                         inspecaoConferida={inspecaoConferida}
                         setInspecaoConferida={setInspecaoConferida}
+                        getProcedimentos={cadastroInspecoesHook.getProcedimentos}
                     />
 
                     {/* Modal: Adicionar Procedimento */}
